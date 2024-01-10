@@ -219,6 +219,13 @@ export default defineComponent({
     HeaderBar, FooterBar, CountDown, VuetifyAudio
   },
   setup() {
+    useHead({
+      title: 'Bảng - Lan Anh',
+      meta: [
+        {name: 'description', content: 'Bảng - Lan Anh'}
+      ]
+    })
+
     const instance = getCurrentInstance().proxy
     const {$router} = instance
     const curImg = ref(null)
