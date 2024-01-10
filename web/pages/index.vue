@@ -77,7 +77,7 @@
       h1.align-center.navbar-brand.hidden-sm-and-down Wedding Events
       v-divider
 
-    v-container
+    v-container.max-width-content
       v-row
         v-col(cols="4" md="2")
           v-img(src="/img/vu_quy.png" )
