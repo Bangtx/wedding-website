@@ -11,7 +11,7 @@
           p.align-center chung vui cùng gia đình chúng tôi
           h3.pa-4.align-center vào 10h00 phút
           h2.pa-4.align-center Ngày 21 tháng 01 năm 2024
-          p.align-center tức ngày 11 tháng 01 năm Quý Mão
+          p.align-center tức ngày 11 tháng 12 năm Quý Mão
           h2.pa-4.align-center Tại Gia Đình Nhà {{isGirl ? 'Gái' : 'Trai'}}
           h3.pa-4.align-center Xóm {{ isGirl ? '3' : '16' }}, Hải {{ isGirl ? 'Phương' : 'Trung' }}, Hải Hậu, Nam Định
           p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") Sự hiện diện của quý vị
