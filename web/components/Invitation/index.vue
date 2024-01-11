@@ -9,7 +9,7 @@
           h3.pa-4.align-center {{name}}
           p.align-center Tới dự bữa cơm thân mật và
           p.align-center chung vui cùng gia đình chúng tôi
-          h3.pa-4.align-center vào 10h00 phút
+          h3.pa-4.align-center vào 10h00
           h2.pa-4.align-center Ngày 21 tháng 01 năm 2024
           p.align-center tức ngày 11 tháng 12 năm Quý Mão
           h2.pa-4.align-center Tại Gia Đình Nhà {{isGirl ? 'Gái' : 'Trai'}}
