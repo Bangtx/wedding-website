@@ -41,7 +41,7 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
                 li Date of birth: 31/05/1998
-                li Company: Otani Up
+                li Company: Otani U.P
                 li Contact: 036 272 1313
           v-col.pa-0.max-width-600(cols="12" md="6")
             v-img(src="/img/content_1.png")
