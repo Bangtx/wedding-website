@@ -272,7 +272,7 @@ export default defineComponent({
       seconds: 0,
     })
     const images = Array.from({ length: 18 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
-    const images2 = Array.from({ length: 10 }, (_, index) => index + 19).map(e => `/anh_nho/${e}.jpg`);
+    const images2 = Array.from({ length: 12 }, (_, index) => index + 19).map(e => `/anh_nho/${e}.jpg`);
     const isPlayAudio = ref(false)
 
     const openYoutube = () => {
