@@ -150,8 +150,8 @@
         v-col(cols="4" md="2")
           v-img(src="/img/tic_nam.png")
         v-col(cols="8" md="4")
-          h3.hidden-md-and-up TIỆC CƯỚI NHÀ NAM
-          h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NAM
+          h3.hidden-md-and-up TIỆC CƯỚI NHÀ TRAI
+          h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ TRAI
           v-icon(color="#9ec2bb" ) mdi-google-maps
           span(style="color: #9ec2bb").pl-3.pt-1 Hai Long - Hai Hau - Nam Dinh
           br
