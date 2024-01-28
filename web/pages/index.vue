@@ -96,7 +96,7 @@
           p Những kí ức về những ngày thơ ấu cùng nhau luôn là nguồn động viên. Đến khi cùng nhau học cấp 3, sự gặp lại này mang theo nhiều cảm xúc khác nhau. Từ những người bạn học cùng lớp, họ bắt đầu cảm nhận những tình cảm mơ hồ và mới mẻ.
 
         v-col(cols="4" md="2")
-          v-img(src="/img/tan_hon.png")
+          v-img(src="/img/tic_nam.png")
         v-col(cols="8" md="4")
           h3 Tiến Tới Hôn Nhân
           p Khi bước vào đại học, họ lại phải đối mặt với khoảng cách địa lý. Nhưng tình bạn của họ vẫn khăng khít. Những cuộc gọi video, và những khoảnh khắc kỷ niệm qua màn hình điện thoại giữ cho tình yêu của họ luôn ấm áp.
@@ -126,8 +126,8 @@
         v-col(cols="4" md="2")
           v-img(src="/img/tiec_nu.png")
         v-col(cols="8" md="4")
-          h3.hidden-md-and-up TIỆC CƯỚI NHÀ NỮ
-          h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NỮ
+          h3.hidden-md-and-up TIỆC CƯỚI NHÀ GÁI
+          h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ GÁI
           v-icon(color="#9ec2bb" ) mdi-google-maps
           span(style="color: #9ec2bb").pl-3.pt-1 Hai Duong - Hai Hau - Nam Dinh
           br
