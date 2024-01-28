@@ -98,7 +98,7 @@
         v-col(cols="4" md="2")
           v-img(src="/img/tan_hon.png")
         v-col(cols="8" md="4")
-          h3 Xa Cách Ở Những Năm Trung Học Cơ Sở
+          h3 Tiến Tới Hôn Nhân
           p Khi bước vào đại học, họ lại phải đối mặt với khoảng cách địa lý. Nhưng tình bạn của họ vẫn khăng khít. Những cuộc gọi video, và những khoảnh khắc kỷ niệm qua màn hình điện thoại giữ cho tình yêu của họ luôn ấm áp.
 
 
@@ -276,7 +276,8 @@ export default defineComponent({
     const isPlayAudio = ref(false)
 
     const openYoutube = () => {
-      window.open('https://www.youtube.com/watch?v=wDC8AYjdhZc');
+      console.log('test')
+      // window.open('https://www.youtube.com/watch?v=wDC8AYjdhZc');
     }
 
     setTimeout(() => {
