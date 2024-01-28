@@ -48,7 +48,7 @@
             v-img(src="/img/content_2.png")
           v-col.bg-txt-content.pa-0.max-width-600(cols="12" md="6")
             .pa-10
-              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Nguyễn Thị Thu Hằng
+              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 33px; color: #f56c6c") Nguyễn Thị Thu Hằng
               h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Nguyễn Thị Thu Hằng
               .ml-3
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
@@ -67,6 +67,40 @@
       count-down
     v-img.hidden-md-and-up(src="/img/content_5.png" width="100%" )
       count-down
+
+    div.mt-5(style="max-width: 400px; margin: 0 auto")
+      v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
+      v-divider
+      h1.align-center.navbar-brand.hidden-md-and-up(style="font-size: 30px") Our Video
+      h1.align-center.navbar-brand.hidden-sm-and-down Our Love Story
+      v-divider
+
+    v-container
+      v-row
+        v-col(cols="4" md="2")
+          v-img(src="/img/vu_quy.png")
+        v-col(cols="8" md="4")
+          h3 Bạn Học Từ Thời Thơ Ấu
+          p Câu chuyện tình yêu bắt đầu từ thời cấp 1, khi họ là bạn học cùng lớp. Trải qua những năm tháng đầu đời, họ chia sẻ những nụ cười, những kỷ niệm đáng nhớ và xây dựng nên một mối quan hệ thân thiết.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tiec_nu.png")
+        v-col(cols="8" md="4")
+          h3 Xa Cách Ở Những Năm THCS
+          p Tuy nhiên, khi bước vào cấp 2, số phận đưa họ ra xa nhau. Mặc dù cách xa, nhưng tình bạn của họ vẫn được giữ chặt, như những dòng sông nhỏ mà thời gian không làm mất đi.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tan_hon.png")
+        v-col(cols="8" md="4")
+          h3 Là Bạn Cùng Lớp THPT
+          p Những kí ức về những ngày thơ ấu cùng nhau luôn là nguồn động viên. Đến khi cùng nhau học cấp 3, sự gặp lại này mang theo nhiều cảm xúc khác nhau. Từ những người bạn học cùng lớp, họ bắt đầu cảm nhận những tình cảm mơ hồ và mới mẻ.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tan_hon.png")
+        v-col(cols="8" md="4")
+          h3 Xa Cách Ở Những Năm Trung Học Cơ Sở
+          p Khi bước vào đại học, họ lại phải đối mặt với khoảng cách địa lý. Nhưng tình bạn của họ vẫn khăng khít. Những cuộc gọi video, và những khoảnh khắc kỷ niệm qua màn hình điện thoại giữ cho tình yêu của họ luôn ấm áp.
+
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -169,9 +203,10 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng chú rể
                 v-img.mt-4(src="/qr/chu_re.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Liên Việt Post Bank
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Quân Đội MBB
                 p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Nguyễn Minh Đức
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 018588800001
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 0610119986666
+
         v-col(cols="12" md="6")
           v-row
             v-col(cols="12" md="8")
@@ -179,9 +214,9 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng cô dâu
                 v-img.mt-4(src="/qr/co_dau.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: vietinbank
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: BIDV
                 p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Nguyễn Thị Thu Hằng
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 100868082410
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 1600323147
             v-col(cols="0" md="4")
 
     div.thanks.mt-4
@@ -221,9 +256,9 @@ export default defineComponent({
   },
   setup() {
     useHead({
-      title: 'Bảng - Lan Anh',
+      title: 'Đức - Hằng',
       meta: [
-        {name: 'description', content: 'Bảng - Lan Anh'}
+        {name: 'description', content: 'Đức - Hằng'}
       ]
     })
 
