@@ -11,6 +11,6 @@ services:
       - './web:/app/web'
       - './web/node_modules:/app/web/node_modules'
     ports:
-      - '3000:3000'
+      - '2000:3000'
     command: ['node', '.output/server/index.mjs']
 
