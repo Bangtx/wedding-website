@@ -3,10 +3,10 @@
     v-row.align-center.white--text.navbar-brand.pt-16
       v-col(cols="0" md="2")
       v-col(cols="12" md="8")
-        h3.high-font.pl-10.hidden-sm-and-down(style="color: white; font-size: 30px") We are waiting for.....
-        h3.high-font.pl-10.hidden-md-and-up(style="color: white; font-size: 20px") We are waiting for.....
-        h2.high-font.pl-14.pt-5.hidden-sm-and-down(style="color: white; font-size: 55px") The wedding
-        h2.high-font.pl-14.pt-5.hidden-md-and-up(style="color: white; font-size: 30px") The wedding
+        h3.high-font.pl-10.hidden-sm-and-down(style="color: rgb(191 116 235); font-size: 30px") We are waiting for.....
+        h3.high-font.pl-10.hidden-md-and-up(style="color: rgb(191 116 235); font-size: 20px") We are waiting for.....
+        h2.high-font.pl-14.pt-5.hidden-sm-and-down(style="color: rgb(191 116 235); font-size: 55px") The wedding
+        h2.high-font.pl-14.pt-5.hidden-md-and-up(style="color: rgb(191 116 235); font-size: 30px") The wedding
       v-col(cols="0" md="2")
 
       //v-row.align-center.white--text.navbar-brand.margin-30
@@ -48,7 +48,7 @@ export default defineComponent({
       seconds: 0,
     })
 
-    const targetDate = new Date('2024-01-21T14:00:00');
+    const targetDate = new Date('2024-02-18T14:00:00');
 
     const updateCountdown = () => {
       // Get the current date and time
