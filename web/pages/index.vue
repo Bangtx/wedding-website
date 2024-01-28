@@ -80,27 +80,27 @@
         v-col(cols="4" md="2")
           v-img(src="/img/vu_quy.png")
         v-col(cols="8" md="4")
-          h3 Bạn Học Từ Thời Thơ Ấu
-          p Câu chuyện tình yêu bắt đầu từ thời cấp 1, khi họ là bạn học cùng lớp. Trải qua những năm tháng đầu đời, họ chia sẻ những nụ cười, những kỷ niệm đáng nhớ và xây dựng nên một mối quan hệ thân thiết.
+          h3(style="color: #f56c6c") Bạn học từ thời thơ ấu:
+          p Mối nhân duyên bắt đầu từ những đứa trẻ ngây thơ. Những năm tháng hồn nhiên vô tư đầy tiếng cười của trẻ nhỏ, họ cùng nhau trưởng thành
 
         v-col(cols="4" md="2")
           v-img(src="/img/tiec_nu.png")
         v-col(cols="8" md="4")
-          h3 Xa Cách Ở Những Năm THCS
-          p Tuy nhiên, khi bước vào cấp 2, số phận đưa họ ra xa nhau. Mặc dù cách xa, nhưng tình bạn của họ vẫn được giữ chặt, như những dòng sông nhỏ mà thời gian không làm mất đi.
-
-        v-col(cols="4" md="2")
-          v-img(src="/img/tan_hon.png")
-        v-col(cols="8" md="4")
-          h3 Là Bạn Cùng Lớp THPT
-          p Những kí ức về những ngày thơ ấu cùng nhau luôn là nguồn động viên. Đến khi cùng nhau học cấp 3, sự gặp lại này mang theo nhiều cảm xúc khác nhau. Từ những người bạn học cùng lớp, họ bắt đầu cảm nhận những tình cảm mơ hồ và mới mẻ.
+          h3(style="color: #f56c6c") Năm cấp hai phượng hồng
+          p Họ không cùng chung một mái trường, đây là khoảng thời gian mỗi người xây dựng một kỉ niệm riêng. Và đón chờ sự gặp gỡ định mệnh sắp tới.
 
         v-col(cols="4" md="2")
           v-img(src="/img/tic_nam.png")
         v-col(cols="8" md="4")
-          h3 Tiến Tới Hôn Nhân
-          p Khi bước vào đại học, họ lại phải đối mặt với khoảng cách địa lý. Nhưng tình bạn của họ vẫn khăng khít. Những cuộc gọi video, và những khoảnh khắc kỷ niệm qua màn hình điện thoại giữ cho tình yêu của họ luôn ấm áp.
+          h3(style="color: #f56c6c") Những người bạn thân cấp 3
+          p  Từ những cảm xúc vô tư, họ trở thành những người bạn thân thiết giúp đỡ nhau trong học tập. Với lời hứa sẽ cùng nhau thi đỗ đại học, họ đã đạt được ước mơ trở thành cô dược sĩ và chú bộ đội.
 
+        v-col(cols="4" md="2")
+          v-img(src="/img/tan_hon.png")
+        v-col(cols="8" md="4")
+          h3(style="color: #f56c6c") Nơi tình yêu bắt đầu
+          p Cứ ngỡ rằng sẽ là những người bạn thân, họ nhận ra mình còn quan trọng hơn thế. Và khi đó câu chuyện tình yêu bắt đầu. Dù có những thời gian khó khăn do điều kiện thời gian hạn hẹp nhưng kết quả của tình yêu ấy là cuộc hôn nhân được mọi người chúc phúc.
+      h1.align-center(style="color: #f56c6c") Happy ending!
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -271,8 +271,8 @@ export default defineComponent({
       minutes: 0,
       seconds: 0,
     })
-    const images = Array.from({ length: 18 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
-    const images2 = Array.from({ length: 12 }, (_, index) => index + 19).map(e => `/anh_nho/${e}.jpg`);
+    const images = Array.from({ length: 19 }, (_, index) => index).map(e => `/anh_nho/${e}.jpg`);
+    const images2 = Array.from({ length: 11 }, (_, index) => index + 19).map(e => `/anh_nho/${e}.jpg`);
     const isPlayAudio = ref(false)
 
     const openYoutube = () => {
