@@ -40,8 +40,8 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 09/10/1998
-                li Contact: 0355 249 922
+                li Date of birth: 18/9/1998
+                li Contact: 0357 690 820
           v-col.pa-0.max-width-600(cols="12" md="6")
             v-img(src="/img/content_1.png")
           v-col.pa-0.max-width-600.hidden-sm-and-down(cols="12" md="6")
@@ -57,8 +57,8 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 18/9/1998
-                li Contact: 0357 690 820
+                li Date of birth: 09/10/1998
+                li Contact: 0355 249 922
           v-col.pa-0.max-width-600.hidden-md-and-up(cols="12" md="6")
             v-img(src="/img/content_2.png")
     div.hidden-sm-and-down(style="height: 100px")
@@ -75,7 +75,7 @@
       h1.align-center.navbar-brand.hidden-sm-and-down Our Love Story
       v-divider
 
-    v-container
+    v-container.max-width-content
       v-row
         v-col(cols="4" md="2")
           v-img(src="/img/vu_quy.png")
