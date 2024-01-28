@@ -12,9 +12,9 @@
         h1.align-center.navbar-brand Welcome to our wedding
         v-divider
       h2.align-center.pt-5.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 30px; color: #f56c6c")
-        span Trần Xuân Bảng &nbsp;
+        span Nguyễn Minh Đức &nbsp;
         v-icon(color="#f56c6c" ) mdi-cards-heart
-        span &nbsp; Phạm Lan Anh
+        span &nbsp; Nguyễn Thị Thu Hằng
 
       div.hidden-md-and-up(style="max-width: 400px; margin: 0 auto")
         v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -22,17 +22,17 @@
         h1.align-center.navbar-brand Welcome to our wedding
         v-divider
       h2.align-center.pt-5.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 20px; color: #f56c6c")
-        span Trần Xuân Bảng &nbsp;
+        span Nguyễn Minh Đức &nbsp;
         v-icon(color="#f56c6c" ) mdi-cards-heart
-        span &nbsp; Phạm Lan Anh
+        span &nbsp; Nguyễn Thị Thu Hằng
       //h2.align-center Hai Hau - Nam Dinh
 
       .max-width-content.pt-16
         v-row
           v-col.bg-txt-content.pa-0.max-width-600(cols="12" md="6")
             .pa-10
-              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Trần Xuân Bảng
-              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Trần Xuân Bảng
+              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Nguyễn Minh Đức
+              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Nguyễn Minh Đức
               .ml-3
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
@@ -40,17 +40,16 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 31/05/1998
-                li Company: Otani U.P
-                li Contact: 036 272 1313
+                li Date of birth: 09/10/1998
+                li Contact: 0355 249 922
           v-col.pa-0.max-width-600(cols="12" md="6")
             v-img(src="/img/content_1.png")
           v-col.pa-0.max-width-600.hidden-sm-and-down(cols="12" md="6")
             v-img(src="/img/content_2.png")
           v-col.bg-txt-content.pa-0.max-width-600(cols="12" md="6")
             .pa-10
-              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Phạm Lan Anh
-              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Phạm Lan Anh
+              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 33px; color: #f56c6c") Nguyễn Thị Thu Hằng
+              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Nguyễn Thị Thu Hằng
               .ml-3
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
@@ -58,17 +57,50 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 17/11/2000
-                li Company: Phuong Minh JSC
-                li Contact: 0344 153 179
+                li Date of birth: 18/9/1998
+                li Contact: 0357 690 820
           v-col.pa-0.max-width-600.hidden-md-and-up(cols="12" md="6")
             v-img(src="/img/content_2.png")
-    div(style="height: 100px")
+    div.hidden-sm-and-down(style="height: 100px")
 
     v-img.hidden-sm-and-down(src="/img/content_4.png" width="100%" )
       count-down
     v-img.hidden-md-and-up(src="/img/content_5.png" width="100%" )
       count-down
+
+    div.mt-5(style="max-width: 400px; margin: 0 auto")
+      v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
+      v-divider
+      h1.align-center.navbar-brand.hidden-md-and-up(style="font-size: 30px") Our Video
+      h1.align-center.navbar-brand.hidden-sm-and-down Our Love Story
+      v-divider
+
+    v-container
+      v-row
+        v-col(cols="4" md="2")
+          v-img(src="/img/vu_quy.png")
+        v-col(cols="8" md="4")
+          h3 Bạn Học Từ Thời Thơ Ấu
+          p Câu chuyện tình yêu bắt đầu từ thời cấp 1, khi họ là bạn học cùng lớp. Trải qua những năm tháng đầu đời, họ chia sẻ những nụ cười, những kỷ niệm đáng nhớ và xây dựng nên một mối quan hệ thân thiết.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tiec_nu.png")
+        v-col(cols="8" md="4")
+          h3 Xa Cách Ở Những Năm THCS
+          p Tuy nhiên, khi bước vào cấp 2, số phận đưa họ ra xa nhau. Mặc dù cách xa, nhưng tình bạn của họ vẫn được giữ chặt, như những dòng sông nhỏ mà thời gian không làm mất đi.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tan_hon.png")
+        v-col(cols="8" md="4")
+          h3 Là Bạn Cùng Lớp THPT
+          p Những kí ức về những ngày thơ ấu cùng nhau luôn là nguồn động viên. Đến khi cùng nhau học cấp 3, sự gặp lại này mang theo nhiều cảm xúc khác nhau. Từ những người bạn học cùng lớp, họ bắt đầu cảm nhận những tình cảm mơ hồ và mới mẻ.
+
+        v-col(cols="4" md="2")
+          v-img(src="/img/tan_hon.png")
+        v-col(cols="8" md="4")
+          h3 Xa Cách Ở Những Năm Trung Học Cơ Sở
+          p Khi bước vào đại học, họ lại phải đối mặt với khoảng cách địa lý. Nhưng tình bạn của họ vẫn khăng khít. Những cuộc gọi video, và những khoảnh khắc kỷ niệm qua màn hình điện thoại giữ cho tình yêu của họ luôn ấm áp.
+
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -85,10 +117,10 @@
           h3.hidden-md-and-up LỄ VU QUY
           h3.pt-10.hidden-sm-and-down LỄ VU QUY
           v-icon(color="#9ec2bb" size="small") mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Phuong - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Hai Duong - Hai Hau - Nam Dinh
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 9:00AM - 20/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 1:00PM - 17/02/2024
           //p when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
         v-col(cols="4" md="2")
@@ -97,10 +129,10 @@
           h3.hidden-md-and-up TIỆC CƯỚI NHÀ NỮ
           h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NỮ
           v-icon(color="#9ec2bb" ) mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Phuong - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Hai Duong - Hai Hau - Nam Dinh
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 18/02/2024
 
       v-row
         v-col(cols="4" md="2")
@@ -109,10 +141,10 @@
           h3.hidden-md-and-up LỄ TÂN HÔN
           h3.pt-10.hidden-sm-and-down LỄ TÂN HÔN
           v-icon(color="#9ec2bb" size="small") mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Trung - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Hai Long - Hai Hau - Nam Dinh
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 2:00PM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 1:00PM - 18/02/2024
           //p when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
         v-col(cols="4" md="2")
@@ -121,10 +153,10 @@
           h3.hidden-md-and-up TIỆC CƯỚI NHÀ NAM
           h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NAM
           v-icon(color="#9ec2bb" ) mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Trung - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Hai Long - Hai Hau - Nam Dinh
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 18/02/2024
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -139,6 +171,9 @@
           v-col(cols="3" md="2" v-for="url in images" :key="url")
             v-img(:src="url" @click="curImg = url")
             //span hihi
+        v-row
+          v-col(cols="4" md="3" v-for="url in images2" :key="url")
+            v-img(:src="url" @click="curImg = url")
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -168,9 +203,10 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng chú rể
                 v-img.mt-4(src="/qr/chu_re.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Liên Việt Post Bank
-                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Trần Xuân Bảng
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 018588800001
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Quân Đội MBB
+                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Nguyễn Minh Đức
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 0610119986666
+
         v-col(cols="12" md="6")
           v-row
             v-col(cols="12" md="8")
@@ -178,9 +214,9 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng cô dâu
                 v-img.mt-4(src="/qr/co_dau.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: vietinbank
-                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Phạm Lan Anh
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 100868082410
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: BIDV
+                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Nguyễn Thị Thu Hằng
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 1600323147
             v-col(cols="0" md="4")
 
     div.thanks.mt-4
@@ -220,9 +256,9 @@ export default defineComponent({
   },
   setup() {
     useHead({
-      title: 'Bảng - Lan Anh',
+      title: 'Đức - Hằng',
       meta: [
-        {name: 'description', content: 'Bảng - Lan Anh'}
+        {name: 'description', content: 'Đức - Hằng'}
       ]
     })
 
@@ -235,40 +271,20 @@ export default defineComponent({
       minutes: 0,
       seconds: 0,
     })
-    const images = Array.from({ length: 24 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
-    const targetDate = new Date('2024-01-21T14:00:00');
+    const images = Array.from({ length: 18 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
+    const images2 = Array.from({ length: 10 }, (_, index) => index + 19).map(e => `/anh_nho/${e}.jpg`);
     const isPlayAudio = ref(false)
-
-    const updateCountdown = () => {
-      // Get the current date and time
-      const currentDate = new Date();
-
-      // Calculate the difference in milliseconds
-      const difference = targetDate - currentDate;
-
-      // Calculate days, hours, minutes, and seconds
-      time.value.days = Math.floor(difference / (1000 * 60 * 60 * 24));
-      time.value.hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      time.value.minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
-      time.value. seconds = Math.floor((difference % (1000 * 60)) / 1000);
-    }
 
     const openYoutube = () => {
       window.open('https://www.youtube.com/watch?v=wDC8AYjdhZc');
     }
-
-    // Update the countdown every second
-    setInterval(updateCountdown, 1000);
-
-    // Initial update
-    updateCountdown();
 
     setTimeout(() => {
       isPlayAudio.value = true
     }, 1000)
 
     return {
-      curImg, images, openYoutube, time, isPlayAudio
+      curImg, images, openYoutube, time, isPlayAudio, images2
     }
   }
 })
