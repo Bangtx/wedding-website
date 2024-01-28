@@ -15,7 +15,7 @@
           h2.pa-4.align-center Tại Gia Đình Nhà {{isGirl ? 'Gái' : 'Trai'}}
           h3.pa-4.align-center Xóm {{ isGirl ? '7' : '2' }}, Hải {{ isGirl ? 'Đường' : 'Long' }}, Hải Hậu, Nam Định
           p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") Sự hiện diện của quý vị
-          p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") là niền vinh hạnh cho gia đình chúng tôi
+          p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") là niềm vinh hạnh cho gia đình chúng tôi
     v-col(cols="0" md="3")
 </template>
 
