@@ -276,8 +276,7 @@ export default defineComponent({
     const isPlayAudio = ref(false)
 
     const openYoutube = () => {
-      console.log('test')
-      // window.open('https://www.youtube.com/watch?v=wDC8AYjdhZc');
+      window.open('https://youtu.be/0vhq9EqZ1Gw');
     }
 
     setTimeout(() => {
