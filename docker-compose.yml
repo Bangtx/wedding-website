@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   web:
-    container_name: exam-marking_web
+    container_name: wedding_web_pro
     build:
       context: ./web
       dockerfile: Dockerfile
