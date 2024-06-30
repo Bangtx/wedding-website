@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   web:
-    container_name: exam-marking_web
+    container_name: wedding_web_main
     build:
       context: ./web
       dockerfile: Dockerfile
@@ -12,5 +12,5 @@ services:
       - './web/node_modules:/app/web/node_modules'
     ports:
       - '1000:1000'
-    command: [ "npm", "run", "dev", '--', '--port', '1000' ]
+    command: ['node', '.output/server/index.mjs']
 
