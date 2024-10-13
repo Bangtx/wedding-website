@@ -88,7 +88,7 @@
           span(style="color: #9ec2bb").pl-3.pt-1 Tổ dân phố số 2, Yên Định, Hải Hậu, Nam Định
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 9:00AM - 26/10/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 1:20PM - 26/10/2024
           //p when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
         v-col(cols="4" md="2")
