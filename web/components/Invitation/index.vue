@@ -13,7 +13,7 @@
           h2.pa-4.align-center Ngày 21 tháng 01 năm 2024
           p.align-center tức ngày 11 tháng 12 năm Quý Mão
           h2.pa-4.align-center Tại Gia Đình Nhà {{isGirl ? 'Gái' : 'Trai'}}
-          h3.pa-4.align-center Xóm {{ isGirl ? '3' : '16' }}, Hải {{ isGirl ? 'Phương' : 'Trung' }}, Hải Hậu, Nam Định
+          h3.pa-4.align-center {{ isGirl ? 'Tổ dân phố số 2, Yên Định' : 'Xóm Quang Bắc, Hải Quang' }}, Hải Hậu, Nam Định
           p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") Sự hiện diện của quý vị
           p.align-center(style="font-family: 'Great Vibes', cursive; font-size: 22px") là niền vinh hạnh cho gia đình chúng tôi
     v-col(cols="0" md="3")

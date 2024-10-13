@@ -12,9 +12,9 @@
         h1.align-center.navbar-brand Welcome to our wedding
         v-divider
       h2.align-center.pt-5.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 30px; color: #f56c6c")
-        span Trần Xuân Bảng &nbsp;
+        span Nguyễn Hồng Đăng &nbsp;
         v-icon(color="#f56c6c" ) mdi-cards-heart
-        span &nbsp; Phạm Lan Anh
+        span &nbsp; Mai Thục Anh
 
       div.hidden-md-and-up(style="max-width: 400px; margin: 0 auto")
         v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -22,17 +22,17 @@
         h1.align-center.navbar-brand Welcome to our wedding
         v-divider
       h2.align-center.pt-5.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 20px; color: #f56c6c")
-        span Trần Xuân Bảng &nbsp;
+        span Nguyễn Hồng Đăng &nbsp;
         v-icon(color="#f56c6c" ) mdi-cards-heart
-        span &nbsp; Phạm Lan Anh
+        span &nbsp; Mai Thục Anh
       //h2.align-center Hai Hau - Nam Dinh
 
       .max-width-content.pt-16
         v-row
           v-col.bg-txt-content.pa-0.max-width-600(cols="12" md="6")
             .pa-10
-              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Trần Xuân Bảng
-              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Trần Xuân Bảng
+              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Nguyễn Hồng Đăng
+              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Nguyễn Hồng Đăng
               .ml-3
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
@@ -40,17 +40,17 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 31/05/1998
-                li Company: Otani U.P
-                li Contact: 036 272 1313
+                li Date of birth: 19/03/1998
+                //li Company: Otani U.P
+                li Contact: 097 622 4057
           v-col.pa-0.max-width-600(cols="12" md="6")
             v-img(src="/img/content_1.png")
           v-col.pa-0.max-width-600.hidden-sm-and-down(cols="12" md="6")
             v-img(src="/img/content_2.png")
           v-col.bg-txt-content.pa-0.max-width-600(cols="12" md="6")
             .pa-10
-              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Phạm Lan Anh
-              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Phạm Lan Anh
+              h1.hidden-md-and-up(style="font-family: 'Great Vibes', cursive; font-size: 40px; color: #f56c6c") Mai Thục Anh
+              h1.hidden-sm-and-down(style="font-family: 'Great Vibes', cursive; font-size: 45px; color: #f56c6c") Mai Thục Anh
               .ml-3
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
@@ -58,14 +58,14 @@
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
                 v-icon(color="#9ec2bb" ) mdi-cards-heart
               ul.pl-8.pt-3
-                li Date of birth: 17/11/2000
-                li Company: Phuong Minh JSC
-                li Contact: 0344 153 179
+                li Date of birth: 05/06/1998
+                //li Company: Phuong Minh JSC
+                li Contact: 035 562 2020
           v-col.pa-0.max-width-600.hidden-md-and-up(cols="12" md="6")
             v-img(src="/img/content_2.png")
     div(style="height: 100px")
 
-    v-img.hidden-sm-and-down(src="/img/content_4.png" width="100%" )
+    v-img.hidden-sm-and-down(src="/img/content_3.png" width="100%" )
       count-down
     v-img.hidden-md-and-up(src="/img/content_5.png" width="100%" )
       count-down
@@ -85,10 +85,10 @@
           h3.hidden-md-and-up LỄ VU QUY
           h3.pt-10.hidden-sm-and-down LỄ VU QUY
           v-icon(color="#9ec2bb" size="small") mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Phuong - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Tổ dân phố số 2, Yên Định, Hải Hậu, Nam Định
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 9:00AM - 20/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 9:00AM - 26/10/2024
           //p when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
         v-col(cols="4" md="2")
@@ -97,10 +97,10 @@
           h3.hidden-md-and-up TIỆC CƯỚI NHÀ NỮ
           h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NỮ
           v-icon(color="#9ec2bb" ) mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Phuong - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Tổ dân phố số 2, Yên Định, Hải Hậu, Nam Định
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 27/10/2024
 
       v-row
         v-col(cols="4" md="2")
@@ -109,10 +109,10 @@
           h3.hidden-md-and-up LỄ TÂN HÔN
           h3.pt-10.hidden-sm-and-down LỄ TÂN HÔN
           v-icon(color="#9ec2bb" size="small") mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Trung - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Xóm Quang Bắc, Hải Quang, Hải Hậu, Nam Định
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 2:00PM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 2:00PM - 27/10/2024
           //p when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
 
         v-col(cols="4" md="2")
@@ -121,10 +121,10 @@
           h3.hidden-md-and-up TIỆC CƯỚI NHÀ NAM
           h3.pt-10.hidden-sm-and-down TIỆC CƯỚI NHÀ NAM
           v-icon(color="#9ec2bb" ) mdi-google-maps
-          span(style="color: #9ec2bb").pl-3.pt-1 Hai Trung - Hai Hau - Nam Dinh
+          span(style="color: #9ec2bb").pl-3.pt-1 Xóm Quang Bắc, Hải Quang, Hải Hậu, Nam Định
           br
           v-icon(color="#9ec2bb" size="small") mdi-watch
-          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 21/01/2024
+          span(style="color: #9ec2bb").pl-3.pt-1 10:00AM - 27/10/2024
 
     div.mt-5(style="max-width: 400px; margin: 0 auto")
       v-img.align-center(src="/img/birth.png"  max-width="150" style="margin: 0 auto")
@@ -168,9 +168,9 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng chú rể
                 v-img.mt-4(src="/qr/chu_re.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Liên Việt Post Bank
-                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Trần Xuân Bảng
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 018588800001
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Techcombank
+                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Nguyễn Hồng Đăng
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 19037063295010
         v-col(cols="12" md="6")
           v-row
             v-col(cols="12" md="8")
@@ -178,9 +178,9 @@
                 h1.align-center(style="font-size: 25px; color: red")
                   i Mừng cô dâu
                 v-img.mt-4(src="/qr/co_dau.png" max-width="200" style="margin: 0 auto")
-                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: vietinbank
-                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Phạm Lan Anh
-                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 100868082410
+                p.align-center.pt-4(style="font-size: 20px") Ngân hàng: Techcombank
+                p.align-center.pt-4(style="font-size: 20px") Tên tài khoản: Mai Thục Anh
+                p.align-center.pt-4(style="font-size: 20px") Số tài khoản: 19037023413010
             v-col(cols="0" md="4")
 
     div.thanks.mt-4
@@ -220,9 +220,9 @@ export default defineComponent({
   },
   setup() {
     useHead({
-      title: 'Bảng - Lan Anh',
+      title: 'Đăng - Thục Anh',
       meta: [
-        {name: 'description', content: 'Bảng - Lan Anh'}
+        {name: 'description', content: 'Đăng - Thục Anh'}
       ]
     })
 
@@ -254,7 +254,7 @@ export default defineComponent({
     }
 
     const openYoutube = () => {
-      window.open('https://www.youtube.com/watch?v=wDC8AYjdhZc');
+      window.open('https://www.youtube.com/watch?v=sKdpM_aNeXE&ab_channel=L%E1%BA%ADptr%C3%ACnhIoT');
     }
 
     // Update the countdown every second
