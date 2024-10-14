@@ -235,7 +235,7 @@ export default defineComponent({
       minutes: 0,
       seconds: 0,
     })
-    const images = Array.from({ length: 24 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
+    const images = Array.from({ length: 23 }, (_, index) => index + 1).map(e => `/anh_nho/${e}.jpg`);
     const targetDate = new Date('2024-01-21T14:00:00');
     const isPlayAudio = ref(false)
 

@@ -5,7 +5,7 @@
     v-container
       v-row.max-width
         v-col(cols="6" md="3")
-          span.navbar-brand B
+          span.navbar-brand Đ
           v-icon(color="#9ec2bb" ) mdi-cards-heart
           span.navbar-brand A
         v-col.pc(cols="6" md="9")
